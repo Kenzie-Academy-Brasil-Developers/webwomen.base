@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./pages/home/index.css">
+    <link rel="stylesheet" href="./styles/coisasUsuais.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/aside.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon"> 
+    <title>Webwomen</title>
+    <meta
+      name="description"
+      content="Está procurando oportunidades de estágio, emprego ou bolsas de estudo? 
+      Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil 
+      e ao redor do mundo?"
+    />
+</head>
+<body class="relative container">
+
+  
+  <header class="container headerContainer flex align justifyCenter relative">
+      <figure class="figureHeader"><img src="./assets/img/img1.svg" alt=""></figure>
+      <div class="divPrincipalHeader">
+        <div><img src="./assets/img/logo.svg" alt=""></div>
+        <div class="divSecundariaHeader">
+          <section>
+            <h1>Lugar de mulher é onde ela quiser!</h1>
+          </section>
+          <section>
+            <p>Está procurando oportunidades de estágio, emprego ou bolsas de estudo?
+              Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil e ao redor do mundo?</p>
+          </section>
+          <section><h4>Confere aqui embaixo o que temos pra você!</h4></section>
+        </div>
+         <a class="butHeader" href="#vagas">Ir para seção das vagas</a>
+      </div>
+    </header>
+
+    <main>
+      <div style="margin-top: 50px;" class="DivMainCards flex column gap32">
+        <h1 id="vagas">Vagas</h1>
+        <div class="flex gap32 wrap">
+          <ul id="ulCards" class="ulCards flex column gap32">
+            
+          </ul>
+          <aside class="aside">
+            <section class="secAside1"><h2>Vagas selecionadas</h2></section>
+            <div class="flex column gap16">
+              <ul id="ulVagas" class="flex column gap32">
+                <li class="flex column gap32">
+                  <section class="secAside2"><p>Você ainda não aplicou para nenhuma vaga</p></section>
+                <section class="secAside2"><img src="./assets/img/no-items.svg" alt=""></section>
+                </li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+    <script src="./pages/home/jobsData.js"></script>
+    <script src="./pages/home/index.js"></script>
+    <script src="./script/buttons.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.headerContainer{
+    color: white;
+}
+.figureHeader{
+    position: absolute;
+    width: 100rem;
+    z-index: -100;
+}
+.divPrincipalHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10rem 0rem;
+    gap: 3.75rem;
+}
+.divSecundariaHeader{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+.butHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem 3.125rem;
+    width: 18.688rem;
+    height: 3rem;
+    background: #6741D9;
+    border: 0.125rem solid #6741D9;
+    border-radius: 0.5rem;
+}   

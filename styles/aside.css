@@ -1,0 +1,37 @@
+.aside{
+    width: 29.875rem;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.secAside1{
+    margin-bottom: 2rem;
+}
+.secAside3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.secAside3 button{
+    width: 2.813rem;
+    height: 2.375rem;
+    background: #F1F3F5;
+    border: 0.125rem solid #F1F3F5;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secAside4{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.liVagas{
+    border-bottom: 0.063rem solid var(--color-grey-3)
+}
