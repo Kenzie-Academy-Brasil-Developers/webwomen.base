@@ -1,7 +1,7 @@
 .aside{
     width: 29.875rem;
     height: 100%;
-    background: #FFFFFF;
+    background: var(--color-grey-6);
     border-radius: 0.5rem;
     padding: 2rem;
     display: flex;
@@ -19,8 +19,8 @@
 .secAside3 button{
     width: 2.813rem;
     height: 2.375rem;
-    background: #F1F3F5;
-    border: 0.125rem solid #F1F3F5;
+    background: var(--color-grey-5);
+    border: 0.125rem solid var(--color-grey-5);
     border-radius: 0.5rem;
     display: flex;
     align-items: center;

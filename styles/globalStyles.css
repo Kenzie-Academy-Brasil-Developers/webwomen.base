@@ -41,13 +41,13 @@ body {
 body button{
   font-family: "Poppins", sans-serif;
   cursor: pointer;
-  color: white;
+  color: var(--color-grey-6);
 }
 body li{
   list-style: none;
 }
 body a{
-  color: white;
+  color: var(--color-grey-6);
   text-decoration: none;
 }
 .container {

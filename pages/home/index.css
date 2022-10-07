@@ -8,7 +8,7 @@
     max-height: 100%;
     width: 51.125rem;
     height: 19.188rem;
-    background: #FFFFFF;
+    background: var(--color-grey-6);
     border-radius: 0.5rem;
 }
 .ulCards{
@@ -32,7 +32,7 @@
     padding: 0.25rem 0.75rem;
     width: 7.688rem;
     height: 1.875rem;
-    background: #DEE2E6;
+    background: var(--color-grey-3);
     border-radius: 0.5rem;
 }
 .secButCandidatar{
@@ -42,10 +42,10 @@
     padding: 0.75rem 1.75rem;
     width: 9.375rem;
     height: 2.375rem;
-    background: #6741D9;
-    border: 0.125rem solid #6741D9;
+    background: var--color-brand-1;
+    border: 0.125rem solid var--color-brand-1;
     border-radius: 0.5rem;
 }
 .butLixo{
-    color: white;
+    color: var(--color-grey-6);
 }
