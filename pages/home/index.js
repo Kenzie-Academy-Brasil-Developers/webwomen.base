@@ -109,27 +109,12 @@ function renderVagasCandidatadas(arr){
         
     })
 }
-//renderVagasCandidatadas(jobsData)
 
-function render0(){
-    let li = document.createElement("li")
-    let section1 = document.createElement("section")
-    let p = document.createElement("p")
-    let section2 = document.createElement("section")
-    let img = document.createElement("img")
-
-    p.innerText = "Você ainda não aplicou para nenhuma vaga"
-    img.src = "./assets/img/no-items.svg" 
-
-    li.classList = ("flex column gap32")
-    section1.classList.add("secAside2")
-    section2.classList.add("secAside2")
-}
 
 function removeLixo(button){
     let id = button.id.slice(3)
     button.addEventListener("click", () => {
-        jobsDataVerify.splice(id, 1)
+        jobsDataVerify = jobsDataVerify.filter(element => element.id != id)
         renderVagasCandidatadas(jobsDataVerify)
         const trocaButText = secButCandidatar.forEach(buttonText => {
             if(buttonText.id == id){

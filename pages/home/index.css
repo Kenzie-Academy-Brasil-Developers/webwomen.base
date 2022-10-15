@@ -7,7 +7,6 @@
     max-width: 100%;
     max-height: 100%;
     width: 51.125rem;
-    height: 19.188rem;
     background: var(--color-grey-6);
     border-radius: 0.5rem;
 }
@@ -23,6 +22,8 @@
 }
 .secButCard{
     width: 100%;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 .classWork{
     display: flex;
