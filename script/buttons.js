@@ -5,9 +5,7 @@ const butLixo = document.querySelectorAll(".butLixo")
 
 let jobsDataVerify = []
 
-if(jsonAnalysis().length > 0){
-    jobsDataVerify.push(jsonAnalysis())
-}
+
 
 
 const butCandidatar = secButCandidatar.forEach(button => {
@@ -25,6 +23,7 @@ const butCandidatar = secButCandidatar.forEach(button => {
         if(butText == "Candidatar"){
             const jobsVerify = jobsData.forEach(element => {
                 if(element.id == button.id){
+                    console.log(element)
                     jobsDataVerify.push(element)
                     button.innerHTML = "Remover candidatura"
                 }

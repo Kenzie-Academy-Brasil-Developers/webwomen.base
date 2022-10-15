@@ -139,7 +139,9 @@ function removeLixo(button){
     })
 }
 
-
+if(jsonAnalysis().length > 0){
+    jobsDataVerify.push(jsonAnalysis())
+}
 
 
 
